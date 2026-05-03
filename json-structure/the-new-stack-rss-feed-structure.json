@@ -1,0 +1,60 @@
+{
+  "title": "The New Stack RSS Feed Structure",
+  "description": "The XML structure of The New Stack RSS 2.0 feed at https://thenewstack.io/feed/",
+  "type": "object",
+  "structure": {
+    "rss": {
+      "type": "element",
+      "description": "Root RSS 2.0 element.",
+      "attributes": {
+        "version": "2.0",
+        "xmlns:content": "http://purl.org/rss/1.0/modules/content/",
+        "xmlns:dc": "http://purl.org/dc/elements/1.1/"
+      },
+      "children": {
+        "channel": {
+          "type": "element",
+          "description": "The feed channel container.",
+          "children": {
+            "title": { "type": "string", "value": "The New Stack" },
+            "link": { "type": "uri", "value": "https://thenewstack.io/" },
+            "description": { "type": "string", "description": "Feed description." },
+            "language": { "type": "string", "value": "en-US" },
+            "lastBuildDate": { "type": "string", "description": "RFC 2822 timestamp of last feed build." },
+            "generator": { "type": "string", "value": "WordPress" },
+            "image": {
+              "type": "element",
+              "children": {
+                "url": { "type": "uri", "description": "Feed icon URL." },
+                "title": { "type": "string" },
+                "link": { "type": "uri" }
+              }
+            },
+            "item": {
+              "type": "array",
+              "description": "Repeated item element for each article. Typically 10-20 items per fetch.",
+              "items": {
+                "title": { "type": "string", "description": "Article headline." },
+                "link": { "type": "uri", "description": "Article URL." },
+                "pubDate": { "type": "string", "description": "RFC 2822 publication date." },
+                "dc:creator": { "type": "string", "description": "Author name." },
+                "category": {
+                  "type": "array",
+                  "description": "Zero or more category elements (repeated element, not an array in XML).",
+                  "items": { "type": "string" }
+                },
+                "guid": {
+                  "type": "element",
+                  "attributes": { "isPermaLink": "true|false" },
+                  "value": "uri or opaque ID"
+                },
+                "description": { "type": "string", "description": "HTML excerpt with featured image." },
+                "content:encoded": { "type": "string", "description": "Full HTML article body." }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

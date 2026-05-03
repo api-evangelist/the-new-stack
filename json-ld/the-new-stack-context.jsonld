@@ -1,0 +1,77 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "schema": "https://schema.org/",
+    "rss": "https://thenewstack.io/",
+    "dcterms": "http://purl.org/dc/terms/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+
+    "NewsArticle": {
+      "@id": "schema:NewsArticle"
+    },
+    "BlogPosting": {
+      "@id": "schema:BlogPosting"
+    },
+    "NewsMediaOrganization": {
+      "@id": "schema:NewsMediaOrganization"
+    },
+    "Podcast": {
+      "@id": "schema:PodcastSeries"
+    },
+    "PodcastEpisode": {
+      "@id": "schema:PodcastEpisode"
+    },
+
+    "TheNewStack": {
+      "@id": "schema:NewsMediaOrganization",
+      "schema:name": "The New Stack",
+      "schema:url": "https://thenewstack.io",
+      "schema:sameAs": [
+        "https://x.com/thenewstack",
+        "https://www.linkedin.com/company/the-new-stack"
+      ]
+    },
+
+    "title": "schema:headline",
+    "link": {
+      "@id": "schema:url",
+      "@type": "@id"
+    },
+    "pubDate": {
+      "@id": "schema:datePublished",
+      "@type": "xsd:dateTime"
+    },
+    "author": {
+      "@id": "schema:author"
+    },
+    "categories": {
+      "@id": "schema:keywords",
+      "@container": "@set"
+    },
+    "description": {
+      "@id": "schema:description"
+    },
+    "content": {
+      "@id": "schema:articleBody"
+    },
+    "guid": {
+      "@id": "dcterms:identifier"
+    },
+
+    "channel": {
+      "@id": "schema:WebSite"
+    },
+    "feed": {
+      "@id": "schema:DataFeed"
+    },
+    "item": {
+      "@id": "schema:dataFeedElement",
+      "@container": "@set"
+    },
+
+    "topics": {
+      "@id": "schema:about",
+      "@container": "@set"
+    }
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://raw.githubusercontent.com/api-evangelist/the-new-stack/main/json-schema/the-new-stack-article-schema.json",
+  "title": "The New Stack RSS Article Item",
+  "description": "An article item from The New Stack RSS feed (RSS 2.0 with Dublin Core and content:encoded extensions).",
+  "type": "object",
+  "properties": {
+    "title": {
+      "type": "string",
+      "description": "Article headline."
+    },
+    "link": {
+      "type": "string",
+      "format": "uri",
+      "description": "Canonical URL of the article on thenewstack.io."
+    },
+    "guid": {
+      "type": "string",
+      "description": "Globally unique identifier for the item (WordPress post URL or ID-based URL)."
+    },
+    "pubDate": {
+      "type": "string",
+      "description": "Publication date in RFC 2822 format (e.g., Sat, 02 May 2026 16:00:00 +0000)."
+    },
+    "author": {
+      "type": "string",
+      "description": "Author's display name (from dc:creator element)."
+    },
+    "categories": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "Array of content category tags (e.g., Cloud Native, DevOps, AI Agents)."
+    },
+    "description": {
+      "type": "string",
+      "description": "Brief excerpt of the article, may include HTML with featured image."
+    },
+    "content": {
+      "type": "string",
+      "description": "Full HTML article content from the content:encoded element."
+    }
+  },
+  "required": ["title", "link", "pubDate"]
+}

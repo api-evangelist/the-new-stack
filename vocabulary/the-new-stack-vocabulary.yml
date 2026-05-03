@@ -1,0 +1,110 @@
+vocabulary:
+  title: The New Stack Vocabulary
+  description: >-
+    Domain vocabulary for The New Stack — a tech media platform covering cloud native,
+    DevOps, AI, and open source technologies. Reflects their editorial taxonomy,
+    content categories, and the technology domains they report on.
+  version: '1.0'
+  created: '2026-05-03'
+  modified: '2026-05-03'
+  terms:
+    - term: CloudNative
+      label: Cloud Native
+      definition: >-
+        An approach to building and running applications that exploits the advantages
+        of the cloud computing delivery model. Cloud native applications are containerized,
+        dynamically orchestrated, and microservices-oriented. A core editorial focus of TNS.
+      domain: Technology
+
+    - term: DevOps
+      label: DevOps
+      definition: >-
+        A set of practices, tools, and cultural philosophy combining software development
+        (Dev) and IT operations (Ops) to shorten system development cycles. A core TNS
+        editorial domain covering CI/CD, platform engineering, observability, and SRE.
+      domain: Technology
+
+    - term: OpenSource
+      label: Open Source
+      definition: >-
+        Software with source code made freely available for use, modification, and distribution.
+        The New Stack covers open source project news, governance, community dynamics,
+        and ecosystem developments.
+      domain: Technology
+
+    - term: AIAgents
+      label: AI Agents
+      definition: >-
+        Autonomous software systems powered by large language models that can plan, reason,
+        and execute multi-step tasks. A rapidly growing TNS editorial category covering
+        agent frameworks, tool use, and production deployments.
+      domain: AI
+
+    - term: MCP
+      label: Model Context Protocol
+      definition: >-
+        An open standard by Anthropic for connecting AI models to external data sources
+        and tools. TNS covers MCP adoption, implementations, and ecosystem developments.
+      abbreviation: MCP
+      domain: AI
+
+    - term: PlatformEngineering
+      label: Platform Engineering
+      definition: >-
+        The discipline of designing and building toolchains and workflows that enable
+        self-service capabilities for software engineering organizations. Covered by TNS
+        as a successor practice to DevOps.
+      domain: Technology
+
+    - term: Kubernetes
+      label: Kubernetes
+      definition: >-
+        An open-source container orchestration system originally developed by Google.
+        A major topic area at TNS covering operators, Helm, GitOps, and ecosystem tools.
+      domain: Technology
+
+    - term: Observability
+      label: Observability
+      definition: >-
+        The ability to understand the internal state of a system from its external outputs —
+        metrics, logs, and traces. TNS covers OpenTelemetry, observability platforms,
+        and SRE practices.
+      domain: Technology
+
+    - term: RSSFeed
+      label: RSS Feed
+      definition: >-
+        A web feed format (RSS 2.0) that allows users and applications to access updates
+        to online content in a standardized format. The New Stack's primary programmatic
+        API for content consumption is its RSS feed at https://thenewstack.io/feed/.
+      domain: API
+
+    - term: dc_creator
+      label: Dublin Core Creator
+      definition: >-
+        The dc:creator XML element in The New Stack RSS feed, containing the article
+        author's display name. Part of the Dublin Core metadata standard namespace.
+      domain: API
+
+    - term: ContentEncoded
+      label: Content Encoded
+      definition: >-
+        The content:encoded RSS extension element containing the full HTML body of
+        a New Stack article. Part of the RSS Content Module namespace.
+      domain: API
+
+    - term: SecurityTech
+      label: Security Technology
+      definition: >-
+        Coverage of cybersecurity tools, vulnerabilities, zero trust architecture,
+        supply chain security, and security engineering practices. An active TNS
+        editorial section.
+      domain: Technology
+
+    - term: AIEngineering
+      label: AI Engineering
+      definition: >-
+        The practices of building, deploying, and maintaining AI systems in production,
+        including MLOps, LLM fine-tuning, RAG architectures, and evaluation frameworks.
+        An increasingly prominent TNS category.
+      domain: AI

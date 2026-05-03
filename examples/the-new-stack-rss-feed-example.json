@@ -1,0 +1,43 @@
+{
+  "description": "Sample parsed representation of The New Stack RSS feed item (https://thenewstack.io/feed/).",
+  "feedMetadata": {
+    "title": "The New Stack",
+    "link": "https://thenewstack.io/",
+    "language": "en-US",
+    "lastBuildDate": "Sat, 02 May 2026 12:32:39 +0000",
+    "generator": "WordPress 6.9.4",
+    "image": {
+      "url": "https://cdn.thenewstack.io/media/2026/03/b2fc1b22-cropped-89b6d319-download-32x32.png",
+      "title": "The New Stack",
+      "link": "https://thenewstack.io/"
+    }
+  },
+  "items": [
+    {
+      "title": "Inside OpenSearch's bid to become the default AI data layer",
+      "link": "https://thenewstack.io/opensearch-ai-data-layer/",
+      "guid": "https://thenewstack.io/?p=22821697",
+      "pubDate": "Sat, 02 May 2026 16:00:00 +0000",
+      "author": "Anil Inamdar",
+      "categories": [
+        "AI Engineering",
+        "AI Infrastructure",
+        "Model Context Protocol (MCP)"
+      ],
+      "description": "OpenSearch is positioning itself as a foundational AI data layer with support for vector search, MCP integration, and hybrid retrieval patterns."
+    },
+    {
+      "title": "\"Like taking your Ferrari to buy milk\": IBM's Neel Sundaresan on the case for Bob",
+      "link": "https://thenewstack.io/ibm-bob-agentic-coding/",
+      "guid": "https://thenewstack.io/?p=22821693",
+      "pubDate": "Sat, 02 May 2026 12:25:35 +0000",
+      "author": "Darryl K. Taft",
+      "categories": [
+        "AI Agents",
+        "AI Infrastructure",
+        "Developer Tools"
+      ],
+      "description": "IBM's Neel Sundaresan explains the design philosophy behind Bob, a lightweight agentic coding tool optimized for focused development tasks."
+    }
+  ]
+}

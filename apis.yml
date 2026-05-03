@@ -3,7 +3,7 @@ url: https://raw.githubusercontent.com/api-evangelist/the-new-stack/refs/heads/m
 apis:
   - aid: the-new-stack:rss
     name: The New Stack RSS Feed
-    description: RSS feed providing the latest articles and news from The New Stack covering cloud native, DevOps, and open source technologies.
+    description: RSS feed providing the latest articles and news from The New Stack covering cloud native, DevOps, AI, and open source technologies. Feed follows RSS 2.0 with Dublin Core and WordPress content extensions.
     image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
     humanURL: https://thenewstack.io/rss-feeds/
     baseURL: https://thenewstack.io
@@ -17,9 +17,20 @@ apis:
         type: RSS
       - url: https://thenewstack.io/rss-feeds/
         type: Documentation
+    features:
+      - RSS 2.0 Feed
+      - Category Filtering
+      - Full Article Content
+      - Author Attribution
+      - Publication Timestamps
+    useCases:
+      - News Aggregation
+      - Content Monitoring
+      - Tech News Alert Feeds
+      - Developer Tool Discovery
   - aid: the-new-stack:podcast-rss
     name: The New Stack Podcast Feed
-    description: RSS feed for The New Stack podcast, featuring discussions with developers, engineers, and operations professionals building at-scale architectures.
+    description: RSS feed for The New Stack podcast, featuring discussions with developers, engineers, and operations professionals building at-scale architectures. Hosted on Simplecast.
     image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
     humanURL: https://thenewstack.io/podcasts/
     baseURL: https://thenewstack.simplecast.com
@@ -33,6 +44,15 @@ apis:
         type: RSS
       - url: https://thenewstack.io/podcasts/
         type: HumanURL
+    features:
+      - Podcast RSS Feed
+      - Episode Audio Downloads
+      - Show Notes
+      - Guest Information
+    useCases:
+      - Podcast Aggregation
+      - Developer Podcast Discovery
+      - Tech Interview Content
 name: The New Stack
 tags:
   - Cloud Native
@@ -94,7 +114,10 @@ common:
   - url: https://www.youtube.com/thenewstack
     name: YouTube
     type: YouTube
-description: The New Stack is a tech media platform covering cloud native, DevOps, and open source technologies, providing news, analysis, podcasts, webinars, and ebooks for developers, software engineers, and operations professionals.
+description: The New Stack is a tech media platform covering cloud native, DevOps, AI, and open source technologies, providing news, analysis, podcasts, webinars, and ebooks for developers, software engineers, and operations professionals. Public data access is available via RSS feeds for articles and podcasts.
 created: '2024-01-01'
-modified: '2026-03-24'
+modified: '2026-05-03'
 specificationVersion: '0.19'
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com

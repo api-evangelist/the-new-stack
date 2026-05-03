@@ -1,59 +1,79 @@
 # The New Stack
 
-The New Stack (https://thenewstack.io/) is a tech media platform covering cloud native, DevOps, and open source technologies. Founded in 2014, it provides news, analysis, podcasts, webinars, and ebooks for developers, software engineers, and operations professionals building and managing software at scale.
+The New Stack is a tech media platform covering cloud native, DevOps, AI, and open source technologies. Founded in 2014, it provides news, analysis, podcasts, webinars, and ebooks for developers, software engineers, and operations professionals building and managing software at scale. Programmatic content access is available via RSS 2.0 feeds.
 
-## APIs and Feeds
+**Human URL:** [https://thenewstack.io/](https://thenewstack.io/)
 
-The New Stack does not publish a documented REST API for public use, but they provide RSS feeds for programmatic access to their content.
+## Scope
 
-### RSS Feeds
+- **Type:** Index
+- **Access:** 3rd-Party
 
-- **Main Feed**: https://thenewstack.io/feed/ — All articles and news from The New Stack.
-- **RSS Feeds Index**: https://thenewstack.io/rss-feeds/ — Overview of all available category-specific RSS feeds covering topics such as Kubernetes, AI, security, networking, and more.
+## Tags
 
-### Podcast Feed
+- Cloud Native
+- DevOps
+- Media
+- Technology News
 
-The New Stack podcast is hosted on Simplecast and distributed across major podcast platforms:
+## Timestamps
 
-- **Simplecast**: https://thenewstack.simplecast.com/
-- **Spotify**: https://open.spotify.com/show/2nj1mpDb9jxHxi9vjZvDdk
-- **Apple Podcasts**: Available by searching "The New Stack" in the Apple Podcasts app.
+- **Created:** 2024-01-01
+- **Modified:** 2026-05-03
 
-## Common Properties
+## Links
 
-| Property | URL |
-|---|---|
-| Website | https://thenewstack.io/ |
-| About | https://thenewstack.io/about-and-contact-info/ |
-| RSS Feeds | https://thenewstack.io/rss-feeds/ |
-| Newsletter | https://thenewstack.io/newsletter/ |
-| Podcasts | https://thenewstack.io/podcasts/ |
-| Contribute | https://thenewstack.io/contributions/ |
-| Sponsorship | https://thenewstack.io/sponsorship/ |
-| Events | https://thenewstack.io/events/ |
-| Webinars | https://thenewstack.io/webinars/ |
-| Privacy Policy | https://thenewstack.io/privacy-policy/ |
+- [Website](https://thenewstack.io/)
+- [About](https://thenewstack.io/about-and-contact-info/)
+- [RSS Feeds](https://thenewstack.io/rss-feeds/)
+- [Main RSS Feed](https://thenewstack.io/feed/)
+- [Newsletter](https://thenewstack.io/newsletter/)
+- [Podcasts](https://thenewstack.io/podcasts/)
+- [Podcast on Simplecast](https://thenewstack.simplecast.com/)
+- [Podcast on Spotify](https://open.spotify.com/show/2nj1mpDb9jxHxi9vjZvDdk)
+- [Contribute](https://thenewstack.io/contributions/)
+- [Sponsorship](https://thenewstack.io/sponsorship/)
+- [Events](https://thenewstack.io/events/)
+- [Webinars](https://thenewstack.io/webinars/)
 
-## Social Media
+## Feeds
 
-- **X (Twitter)**: https://x.com/thenewstack
-- **LinkedIn**: https://www.linkedin.com/company/the-new-stack
-- **Facebook**: https://www.facebook.com/thenewstack/
-- **YouTube**: https://www.youtube.com/thenewstack
+- **Main RSS Feed:** [https://thenewstack.io/feed/](https://thenewstack.io/feed/) — All articles in RSS 2.0 format.
+- **Podcast RSS Feed:** [https://thenewstack.simplecast.com/episodes](https://thenewstack.simplecast.com/episodes) — Podcast episodes.
+
+## JSON Schema
+
+- [Article RSS Item Schema](json-schema/the-new-stack-article-schema.json)
+
+## JSON Structure
+
+- [RSS Feed Structure](json-structure/the-new-stack-rss-feed-structure.json)
+
+## JSON-LD
+
+- [The New Stack Linked Data Context](json-ld/the-new-stack-context.jsonld)
+
+## Examples
+
+- [RSS Feed Item Example](examples/the-new-stack-rss-feed-example.json)
+
+## Vocabulary
+
+- [The New Stack Domain Vocabulary](vocabulary/the-new-stack-vocabulary.yml)
 
 ## Topics Covered
-
-The New Stack covers a wide range of topics including:
 
 - Cloud Native Computing
 - Kubernetes and Containers
 - DevOps and Platform Engineering
 - Open Source Software
-- AI and Machine Learning
+- AI and AI Agents
 - Security
 - Networking
 - Software Development and Architecture
 
-## About This Repository
+## Maintainers
 
-This repository contains the `apis.yml` index for The New Stack, cataloging their available feeds and public-facing programmatic access points as part of the APIs.json specification.
+**FN:** Kin Lane
+
+**Email:** kin@apievangelist.com
