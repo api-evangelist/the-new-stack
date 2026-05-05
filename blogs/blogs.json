@@ -1,0 +1,13 @@
+{
+  "repo": "the-new-stack",
+  "feeds": [
+    {
+      "source": "https://thenewstack.io/feed/",
+      "feed_url": "https://thenewstack.io/feed/",
+      "saved": 10,
+      "title": "The New Stack"
+    }
+  ],
+  "post_count": 10,
+  "fetched": "2026-05-03T23:37:25Z"
+}
