@@ -2,12 +2,25 @@
   "repo": "the-new-stack",
   "feeds": [
     {
+      "source": "https://thenewstack.io/rss-feeds/",
+      "feed_url": "https://thenewstack.io/rss-feeds/feed/",
+      "title": "Comments on: RSS Feeds",
+      "saved": 0
+    },
+    {
       "source": "https://thenewstack.io/feed/",
       "feed_url": "https://thenewstack.io/feed/",
-      "saved": 10,
-      "title": "The New Stack"
+      "title": "The New Stack",
+      "saved": 26
+    },
+    {
+      "source": "https://thenewstack.simplecast.com/episodes",
+      "feed_url": "",
+      "title": "",
+      "saved": 0,
+      "error": "no_feed"
     }
   ],
-  "post_count": 10,
-  "fetched": "2026-05-03T23:37:25Z"
+  "post_count": 36,
+  "fetched": "2026-05-09T20:17:51Z"
 }
