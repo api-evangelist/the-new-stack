@@ -63,6 +63,8 @@ type: Index
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 access: 3rd-Party
 common:
+  - type: GitHubOrganization
+    url: https://github.com/thenewstack
   - url: https://thenewstack.io/
     name: The New Stack Website
     type: Website
