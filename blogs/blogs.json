@@ -16,6 +16,13 @@
       "method": "none"
     },
     {
+      "source": "https://thenewstack.io/blog/feed/",
+      "feed_url": "https://thenewstack.io/blog/feed/",
+      "title": "",
+      "saved": 0,
+      "method": "feed"
+    },
+    {
       "source": "https://thenewstack.io/rss-feeds/",
       "feed_url": "https://thenewstack.io/blog/feed/",
       "title": "",
@@ -23,6 +30,6 @@
       "method": "discovered"
     }
   ],
-  "post_count": 88,
-  "fetched": "2026-06-01T23:35:02Z"
+  "post_count": 114,
+  "fetched": "2026-06-14T20:42:17Z"
 }
