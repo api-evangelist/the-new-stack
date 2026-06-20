@@ -4,7 +4,7 @@ apis:
   - aid: the-new-stack:rss
     name: The New Stack RSS Feed
     description: RSS feed providing the latest articles and news from The New Stack covering cloud native, DevOps, AI, and open source technologies. Feed follows RSS 2.0 with Dublin Core and WordPress content extensions.
-    image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://thenewstack.io/rss-feeds/
     baseURL: https://thenewstack.io
     tags:
@@ -31,7 +31,7 @@ apis:
   - aid: the-new-stack:podcast-rss
     name: The New Stack Podcast Feed
     description: RSS feed for The New Stack podcast, featuring discussions with developers, engineers, and operations professionals building at-scale architectures. Hosted on Simplecast.
-    image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://thenewstack.io/podcasts/
     baseURL: https://thenewstack.simplecast.com
     tags:
@@ -60,7 +60,7 @@ tags:
   - Media
   - Technology News
 type: Index
-image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 access: 3rd-Party
 common:
   - type: GitHubOrganization
