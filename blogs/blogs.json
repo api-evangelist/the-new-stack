@@ -5,7 +5,7 @@
       "source": "https://thenewstack.io/feed/",
       "feed_url": "https://thenewstack.io/feed/",
       "title": "",
-      "saved": 0,
+      "saved": 25,
       "method": "feed"
     },
     {
@@ -13,7 +13,8 @@
       "feed_url": "https://thenewstack.simplecast.com/episodes",
       "title": "",
       "saved": 0,
-      "method": "none"
+      "method": "none",
+      "error": "parse_failed"
     },
     {
       "source": "https://thenewstack.io/blog/feed/",
@@ -30,6 +31,6 @@
       "method": "discovered"
     }
   ],
-  "post_count": 276,
-  "fetched": "2026-08-06T14:08:46Z"
+  "post_count": 301,
+  "fetched": "2026-08-15T12:11:08Z"
 }
