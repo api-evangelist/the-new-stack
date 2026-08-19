@@ -133,7 +133,7 @@ common:
 description: The New Stack is a tech media platform covering cloud native, DevOps, AI, and open source technologies, providing news, analysis, podcasts, webinars, and ebooks for developers, software engineers, and operations professionals. Public data access is available via RSS feeds for articles and podcasts.
 created: '2024-01-01'
 modified: '2026-05-03'
-specificationVersion: '0.19'
+specificationVersion: '0.23'
 maintainers:
   - FN: Kin Lane
     email: kin@apievangelist.com
