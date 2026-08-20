@@ -8,6 +8,11 @@ apis:
     humanURL: https://thenewstack.io/rss-feeds/
     baseURL: https://thenewstack.io
     tags:
+      - Cloud-Native
+      - DevOps
+      - News Feed
+      - RSS
+    tags_raw:
       - Cloud Native
       - DevOps
       - News Feed
@@ -35,6 +40,11 @@ apis:
     humanURL: https://thenewstack.io/podcasts/
     baseURL: https://thenewstack.simplecast.com
     tags:
+      - Cloud-Native
+      - DevOps
+      - Podcast
+      - RSS
+    tags_raw:
       - Cloud Native
       - DevOps
       - Podcast
@@ -55,6 +65,11 @@ apis:
       - Tech Interview Content
 name: The New Stack
 tags:
+  - Cloud-Native
+  - DevOps
+  - Media
+  - Technology News
+tags_raw:
   - Cloud Native
   - DevOps
   - Media
