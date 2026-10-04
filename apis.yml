@@ -6,7 +6,6 @@ apis:
     description: RSS feed providing the latest articles and news from The New Stack covering cloud native, DevOps, AI, and open source technologies. Feed follows RSS 2.0 with Dublin Core and WordPress content extensions.
     image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://thenewstack.io/rss-feeds/
-    baseURL: https://thenewstack.io
     tags:
       - Cloud-Native
       - DevOps
