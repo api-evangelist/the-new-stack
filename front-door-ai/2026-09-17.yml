@@ -1,0 +1,39 @@
+# Front Door AI Index — the-new-stack — 2026-09-17
+# AI vocabulary counted on the provider's root page. Generated; do not edit.
+# `score` is null unless ownership is `own` — see front_door_ai.py.
+front_door_ai:
+  slug: the-new-stack
+  lexicon_version: '1.0'
+  probed_at: '2026-09-25'
+  host: thenewstack.io
+  final_host: thenewstack.io
+  ownership: own
+  owner: the-new-stack
+  shares_host_with: null
+  inherited_from: null
+  alias_of: null
+  verdict: scored
+  score: 165
+  band: 6
+  band_label: dominant
+  host_score: 165
+  density: 27.03
+  words: 6104
+  tiers:
+    agentic: 31
+    core: 77
+    model: 57
+  ambiguous: 45
+  top_terms:
+    AI: 73
+    agent: 45
+    OpenAI: 17
+    AI agent: 16
+    Claude: 15
+    Anthropic: 12
+    ChatGPT: 5
+    GPT: 5
+    agentic: 5
+    inference: 4
+    Gemini: 3
+    large language model: 3
