@@ -64,80 +64,140 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-The New Stack is a tech media platform covering cloud native, DevOps, AI, and open source technologies. Founded in 2014, it provides news, analysis, podcasts, webinars, and ebooks for developers, software engineers, and operations professionals building and managing software at scale. Programmatic content access is available via RSS 2.0 feeds.
+The New Stack is a tech media platform covering cloud native, DevOps, AI, and open source technologies, providing news, analysis, podcasts, webinars, and ebooks for developers, software engineers, and operations professionals. Public data access is available via RSS feeds for articles and podcasts.
 
-**Human URL:** [https://thenewstack.io/](https://thenewstack.io/)
+**Areas:** Cloud-Native · DevOps · Media · Technology News
 
-## Scope
+## The New Stack on APIs.io
 
-- **Type:** Index
-- **Access:** 3rd-Party
+Everything profiled for The New Stack is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/the-new-stack/](https://apis.io/providers/the-new-stack/)** — or go straight to one of the APIs or properties below.
 
-## Tags
+### APIs (2)
 
-- Cloud Native
-- DevOps
-- Media
-- Technology News
+- [The New Stack RSS Feed](https://apis.io/apis/the-new-stack/rss/) — RSS feed providing the latest articles and news from The New Stack covering cloud native, DevOps, AI, and open source technologies. Feed follows RSS 2.0…
+- [The New Stack Podcast Feed](https://apis.io/apis/the-new-stack/podcast-rss/) — RSS feed for The New Stack podcast, featuring discussions with developers, engineers, and operations professionals building at-scale architectures. Hosted…
 
-## Timestamps
+### Published properties
 
-- **Created:** 2024-01-01
-- **Modified:** 2026-05-03
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
-## Links
+#### JSON Schema (1)
+
+The data models the API reads and writes.
+
+- [The New Stack RSS Article Item](https://apis.io/schemas/the-new-stack/the-new-stack-article/)
+
+#### JSON Structure (1)
+
+Data models expressed in JSON Structure.
+
+- [The New Stack Rss Feed Structure](https://apis.io/json-structure/the-new-stack/the-new-stack-rss-feed-structure/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [The New Stack Context](https://apis.io/jsonld/the-new-stack/the-new-stack-context/)
+
+#### Vocabulary (1)
+
+The provider's domain terms, defined.
+
+- [The New Stack Vocabulary](https://apis.io/vocabularies/the-new-stack/the-new-stack-vocabulary/)
+
+#### Examples (1)
+
+Example requests and responses.
+
+- [The New Stack Rss Feed Example](https://apis.io/examples/the-new-stack/the-new-stack-rss-feed-example/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [The New Stack — jsonschema rules](https://apis.io/rules/the-new-stack/the-new-stack-jsonschema-spectral-rules/)
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [The New Stack Domain Security](https://apis.io/security/the-new-stack/the-new-stack-domain-security/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [The New Stack Plans Pricing](https://apis.io/plans/the-new-stack/the-new-stack-plans-pricing/)
+
+#### Rate limits (1)
+
+Published request limits.
+
+- [The New Stack Rate Limits](https://apis.io/rate-limits/the-new-stack/the-new-stack-rate-limits/)
+
+#### FinOps (1)
+
+What the API costs to run, by operation.
+
+- [The New Stack Finops](https://apis.io/finops/the-new-stack/the-new-stack-finops/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
 
 - [Website](https://thenewstack.io/)
-- [About](https://thenewstack.io/about-and-contact-info/)
-- [RSS Feeds](https://thenewstack.io/rss-feeds/)
-- [Main RSS Feed](https://thenewstack.io/feed/)
-- [Newsletter](https://thenewstack.io/newsletter/)
-- [Podcasts](https://thenewstack.io/podcasts/)
-- [Podcast on Simplecast](https://thenewstack.simplecast.com/)
-- [Podcast on Spotify](https://open.spotify.com/show/2nj1mpDb9jxHxi9vjZvDdk)
-- [Contribute](https://thenewstack.io/contributions/)
-- [Sponsorship](https://thenewstack.io/sponsorship/)
-- [Events](https://thenewstack.io/events/)
-- [Webinars](https://thenewstack.io/webinars/)
+- [Privacy policy](https://thenewstack.io/privacy-policy/)
+- [GitHub](https://github.com/thenewstack)
 
-## Feeds
+## API Evangelist rating
 
-- **Main RSS Feed:** [https://thenewstack.io/feed/](https://thenewstack.io/feed/) — All articles in RSS 2.0 format.
-- **Podcast RSS Feed:** [https://thenewstack.simplecast.com/episodes](https://thenewstack.simplecast.com/episodes) — Podcast episodes.
+**Kin Score 15.6** — emerging · rubric 0.24.0 · scored 2026-10-17
 
-## JSON Schema
+| Facet | Score |
+|---|---|
+| Discoverability | 48.2 |
+| Contract quality | 10.7 |
+| Contract governance | 9.8 |
+| Operational transparency | 10.5 |
+| Developer ergonomics | 9.5 |
+| Access clarity | 18.4 |
 
-- [Article RSS Item Schema](json-schema/the-new-stack-article-schema.json)
+**Agent readiness 0.6** — human-only
 
-## JSON Structure
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | derived (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
 
-- [RSS Feed Structure](json-structure/the-new-stack-rss-feed-structure.json)
+**Regulatory alignment 14.7** — Horizontal (data, software, accessibility, platform)
 
-## JSON-LD
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/the-new-stack/](https://apis.io/providers/the-new-stack/).
 
-- [The New Stack Linked Data Context](json-ld/the-new-stack-context.jsonld)
+## How this profile is made
 
-## Examples
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
 
-- [RSS Feed Item Example](examples/the-new-stack-rss-feed-example.json)
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for The New Stack: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
 
-## Vocabulary
+## Open an issue
 
-- [The New Stack Domain Vocabulary](vocabulary/the-new-stack-vocabulary.yml)
-
-## Topics Covered
-
-- Cloud Native Computing
-- Kubernetes and Containers
-- DevOps and Platform Engineering
-- Open Source Software
-- AI and AI Agents
-- Security
-- Networking
-- Software Development and Architecture
-
-## Maintainers
-
-**FN:** Kin Lane
-
-**Email:** kin@apievangelist.com
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/the-new-stack/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
